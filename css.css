@@ -1,0 +1,411 @@
+@media (min-width:810px) and (max-width:900px){
+    .a5{
+        width: 70%;
+        margin:0
+    }
+    .a5 h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+    .a4{
+       padding-bottom: 0;
+    }
+    .a5 p{
+        font-size: 17px;
+    }
+    .a7{
+        margin-top: 0;
+    }
+    .a5 button{
+        margin-bottom: 10px;
+        margin-top: 0;   
+    }
+    .d2{
+        width: 70%;
+    }
+    
+.d2 h1{
+    font-size: 33px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+.d1 img{
+    margin-left: -5px;
+    width: 100%;
+}
+.d{
+    padding-bottom: 30px;
+}
+.b1 p{
+    margin: 0;
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.b3 button{
+    width: fit-content;
+    font-size: 15px;
+  height: 28px;
+}
+.b3{
+    display: block;
+    margin-left: 20px; 
+}
+.b2{
+    grid-template-rows: auto;
+}  
+}
+/* tab css */
+@media (max-width:810px){
+    .a5{
+        width: 90%;
+        margin:0  
+    }
+    .a5 h1{
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+    .a4{
+       padding-bottom: 0;
+    }
+    .a5 p{
+        font-size: 17px;
+    }
+    .a7{
+        margin-top: 0;
+    }
+    .a5 button{
+        margin-bottom: 10px;
+        margin-top: 0; 
+    }
+    
+.a{
+    display: none;
+}    
+.a1{
+    width: 25%;
+    margin-left: 250px;
+}
+.a2{
+    width: 20%;
+    margin-right: 20px;
+}
+.a2 button{
+    background-color: white;
+    border-radius: 30px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 700;
+    color:#C8102E;
+    height: 30px;
+    border: none;
+}
+
+.a6{
+  width: 90%;
+    }
+    .abc{
+        width:100%;
+        margin: auto;
+    }
+    .a3{
+        display: none;
+    }
+    .a6 img{
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .b{
+        margin-top: 0;
+    }
+.b1 p{
+    margin: 0;
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.b3 button{
+    width: fit-content;
+    font-size: 15px;
+  height: 28px;
+}
+.b3{
+    display: block;
+    margin-left: 20px; 
+}
+.b2{
+    grid-template-rows: auto;
+}  
+.c{
+    width: 100%;
+   margin-bottom: 100px;
+}
+.c1{
+    margin-top: 0;
+}
+.c h2{
+    font-size: 30px;
+}
+.d{
+    display: none;
+}
+.e{
+    display: none;
+}
+.f{
+    position: fixed;
+    bottom: 34px;
+}
+.f1{
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.f1 svg{
+    width: 13%; 
+}
+.f2 {
+    width: 100%;
+}
+.qq {
+    width:17%;
+    margin-left: 30px;
+}
+.qq svg{
+    width: 100%;
+}
+.g{
+    color:black;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: fixed;
+   bottom: 0;
+   display: flex;
+   justify-content: space-between;
+}
+.g1 svg{
+    width: 65%;
+    height: auto;
+}
+.g1{ 
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+.g1 p{
+    font-size: 14px;
+}
+.g3{
+    width:7%;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-right: 6.9%;
+}
+.g3 p{
+    font-size: 13px
+}
+.g3 svg{
+    width: 50%;
+    height: auto;
+}
+}
+
+/* mobile css */
+@media (max-width:430px){
+.a{
+    display: none;  
+}    
+.a1{
+    width: 45%;
+    margin-left: 80px;  
+}
+.nav{
+    width: 100%;
+}
+.a2{
+    width: 20%;
+    margin-right: 20px;
+}
+.a2 button{
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color:#C8102E;
+    height: 20px;
+    border: none;
+}
+.a7{
+    grid-template-columns: auto;
+    width: 90%;
+    margin-top: 0;
+}
+.a5{
+    order: 2;
+    width: 90%;
+    margin-left: 15px;
+    margin: auto; 
+    padding: 0;
+}
+.a4{
+    padding: 0;
+  width: 100%;
+}
+.a6{
+order: 1;
+margin-left: 40px;
+}
+.abc{
+    width: fit-content;
+    margin: auto;
+}
+
+.a3{
+    display: none;
+}
+.a6 img{
+    width: 85%;
+}
+.nav{
+    width: 100%;
+}
+.a5 h1{
+    font-size: 32px;
+    font-family: 'sofia_pro_bold', Helvetica, Arial, sans-serif;
+    line-height: 36px;
+    font-weight: 550;
+}
+
+.a5 p{
+    font-size: 16px;
+    font-family: 'sofia_pro_bold', Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.a5 button{
+    margin-top: 14px;
+    padding: 14px;
+    background-color: #C8102E;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 90%;
+}
+.b2{
+    margin: auto;
+ 
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+}
+.b3{
+    display: block;
+    margin-left: 20px;   
+}
+
+.b1 p{
+    margin: 0;
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.b3 button{
+    width: fit-content;
+    font-size: 15px;
+  height: 28px;
+}
+.c{
+    width: 100%;
+   margin-bottom: 100px;
+}
+.c1{
+    margin-top: 0;
+}
+.c h2{
+    font-size: 30px;
+}
+.d{
+    display: none;
+}
+.e{
+    display: none;
+}
+.f{
+    position: fixed;
+    bottom: 34px;
+}
+.f1{
+    margin-left: 0;
+}
+.f1 svg{
+    width: 13%;
+}
+.f2 {
+    margin-left: px;
+    width: 100%;
+}
+.qq {
+    width:40%;
+    margin-left: 30px;
+}
+.qq svg{
+    width: 100%;
+}
+.g{
+    color:black;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: fixed;
+   bottom: 0;
+   display: flex;
+   justify-content: space-between;
+}
+.g1 svg{
+    width: 50%;
+    height: auto;
+}
+.g1{   
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+.g1 p{
+    font-size: 13px;
+}
+.g3{
+    width:7%;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-right: 6.9%;
+}
+.g3 p{
+    font-size: 13px;
+}
+.g3 svg{
+    width: 50%;
+    height: auto;
+}
+}
